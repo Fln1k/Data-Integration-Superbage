@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 10,
+    "passing": 7,
+    "failing": 3,
+    "skipped": 0,
+    "passRate": "70%",
+    "failRate": "30%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jan 19 2021 10:14:20 AM",
+    "testExecutionTimeInMs": 1462,
+    "testTotalTimeInMs": 1462,
+    "commandTimeInMs": 1775,
+    "hostname": "https://mindful-badger-p9kf2e-dev-ed.my.salesforce.com",
+    "orgId": "00D5g000003cnHlEAI",
+    "username": "sergeitrigubovfleps@mindful-badger-p9kf2e.com",
+    "testRunId": "7075g000000S8D1",
+    "userId": "0055g000003T3yrAAC"
+  },
+  "tests": [
+    {
+      "id": "07M5g000000LMdgEAG",
+      "queueItemId": "7095g000000g2p4AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testGetCurrentUser",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000005GI5SAAW",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 19,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testGetCurrentUser"
+    },
+    {
+      "id": "07M5g000000LMdhEAG",
+      "queueItemId": "7095g000000g2p4AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testResetMyPassword",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000005GI5SAAW",
+        "name": "tt_UtilControllerTest",
+        "namespacePrefix": "trlhdtips",
+        "fullName": "trlhdtips__tt_UtilControllerTest"
+      },
+      "runTime": 165,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "trlhdtips__tt_UtilControllerTest.testResetMyPassword"
+    },
+    {
+      "id": "07M5g000000LMdqEAG",
+      "queueItemId": "7095g000000g2p5AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testFailureProjectRestService",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLuAAI",
+        "name": "ProjectRESTServiceTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectRESTServiceTest"
+      },
+      "runTime": 11,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "ProjectRESTServiceTest.testFailureProjectRestService"
+    },
+    {
+      "id": "07M5g000000LMdrEAG",
+      "queueItemId": "7095g000000g2p5AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testSuccessfulProjectRestService",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLuAAI",
+        "name": "ProjectRESTServiceTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectRESTServiceTest"
+      },
+      "runTime": 101,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "ProjectRESTServiceTest.testSuccessfulProjectRestService"
+    },
+    {
+      "id": "07M5g000000LMdwEAG",
+      "queueItemId": "7095g000000g2p7AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testValidOppUpdateFail",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLsAAI",
+        "name": "ProjectCalloutServiceTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectCalloutServiceTest"
+      },
+      "runTime": 50,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "ProjectCalloutServiceTest.testValidOppUpdateFail"
+    },
+    {
+      "id": "07M5g000000LMdxEAG",
+      "queueItemId": "7095g000000g2p7AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testValidOppUpdateSuccess",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLsAAI",
+        "name": "ProjectCalloutServiceTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectCalloutServiceTest"
+      },
+      "runTime": 44,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "ProjectCalloutServiceTest.testValidOppUpdateSuccess"
+    },
+    {
+      "id": "07M5g000000LMdvEAG",
+      "queueItemId": "7095g000000g2p7AAA",
+      "stackTrace": null,
+      "message": "Methods defined as TestMethod do not support Web service callouts",
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testInvalidOppUpdate",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLsAAI",
+        "name": "ProjectCalloutServiceTest",
+        "namespacePrefix": null,
+        "fullName": "ProjectCalloutServiceTest"
+      },
+      "runTime": 115,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "ProjectCalloutServiceTest.testInvalidOppUpdate"
+    },
+    {
+      "id": "07M5g000000LMe0EAG",
+      "queueItemId": "7095g000000g2p9AAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testSOAPCalloutFail",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLnAAI",
+        "name": "BillingCalloutServiceTest",
+        "namespacePrefix": null,
+        "fullName": "BillingCalloutServiceTest"
+      },
+      "runTime": 490,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "BillingCalloutServiceTest.testSOAPCalloutFail"
+    },
+    {
+      "id": "07M5g000000LMe1EAG",
+      "queueItemId": "7095g000000g2p9AAA",
+      "stackTrace": "Class.BillingCalloutServiceTest.testSOAPCalloutSuccess: line 49, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: Billed, Actual: Billable",
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "testSOAPCalloutSuccess",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLnAAI",
+        "name": "BillingCalloutServiceTest",
+        "namespacePrefix": null,
+        "fullName": "BillingCalloutServiceTest"
+      },
+      "runTime": 467,
+      "testTimestamp": "2021-01-19T07:14:22.000+0000",
+      "fullName": "BillingCalloutServiceTest.testSOAPCalloutSuccess"
+    },
+    {
+      "id": "07M5g000000LMdlEAG",
+      "queueItemId": "7095g000000g2pAAAQ",
+      "stackTrace": null,
+      "message": "line 39, column 28: Method does not exist or incorrect signature: void postOpportunityToPMS() from the type ProjectCalloutService",
+      "asyncApexJobId": "7075g000000S8D1AAK",
+      "methodName": "<compile>",
+      "outcome": "CompileFail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5g000004cfLoAAI",
+        "name": "InstallationTests",
+        "namespacePrefix": null,
+        "fullName": "InstallationTests"
+      },
+      "runTime": null,
+      "testTimestamp": "2021-01-19T07:14:21.000+0000",
+      "fullName": "InstallationTests.<compile>"
+    }
+  ]
+}
